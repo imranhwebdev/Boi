@@ -1,0 +1,47 @@
+.copytoclipboard-inner {
+    position: relative;
+    z-index: 1;
+    .copytoclipboard {
+        position: relative;
+        padding: 12px 24px;
+        border-radius: 8px;
+        border: 1px solid #B4B4B4;
+        background: rgba(0, 0, 0, 0.02);
+        max-width: 581px;
+        margin-inline: auto;
+        @include sm{
+            padding: 10px 8px
+        }
+        p {
+            @include font-20;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+            @include passion-one;
+            opacity: 0.8;
+            @include ssm{
+                font-size: 13px;
+            }
+        }
+        button {
+            position: absolute;
+            right: 24px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            border: 0;
+            background: #FAFAFA;
+            padding: 0 4px;
+            @include sm{
+                right: 0px;
+                padding: 0px 10px;
+                height: 80%;
+                @include ssm{
+                    padding: 0px 4px;
+                }
+            }
+            img {
+                max-width: 20px;
+            }
+        }
+    }
+}

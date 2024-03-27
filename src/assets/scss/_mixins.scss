@@ -1,0 +1,101 @@
+@mixin transition {
+    transition: all .3s ease-in-out;
+}
+
+@mixin architects-daughter {
+    font-family: "Architects Daughter", cursive;
+}
+
+@mixin passion-one {
+    font-family: "Passion One", sans-serif;
+}
+
+@mixin font-110{
+    font-size: 110px;
+    line-height: 120%;
+    @include xl {
+        font-size: 90px;
+    }
+    @include lg {
+        font-size: 80px;
+    }
+    @include md {
+        font-size: 75px;
+    }
+    @include sm {
+        font-size: 65px;
+    }
+}
+
+@mixin font-40 {
+    font-size: 40px;
+    line-height: 120%;
+    @include xl {
+        font-size: 38px;
+    }
+    @include lg {
+        font-size: 35px;
+    }
+    @include md {
+        font-size: 30px;
+    }
+    @include sm {
+        font-size: 28px;
+    }
+}
+
+@mixin font-31 {
+    font-size: 31.947px;
+    line-height: 160%;
+    @include md {
+        font-size: 28px;
+    }
+    @include sm {
+        font-size: 25px;
+    }
+}
+
+@mixin font-20 {
+    font-size: 20px;
+    line-height: 160%;
+    @include md {
+        font-size: 18px;
+    }
+    @include sm {
+        font-size: 16px;
+    }
+}
+
+@mixin font-26 {
+    font-size: 26px;
+    line-height: 120%;
+    @include lg {
+        font-size: 22px;
+    }
+    @include md {
+        font-size: 20px;
+    }
+    @include sm {
+        font-size: 18px;
+    }
+}
+
+@mixin font-14 {
+    font-size: 14px;
+    line-height: 120%;
+    @include sm {
+        font-size: 12px;
+    }
+}
+
+@mixin font-12 {
+    font-size: 12px;
+    line-height: 120%;
+    @include sm {
+        font-size: 10px;
+    }
+}
+
+.d-flex{
+    display: flex;
+}

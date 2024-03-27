@@ -1,0 +1,37 @@
+.header{
+    &-area{
+        padding-top: 34px;
+        padding-bottom: 34px;
+    }
+    &-inner{
+        justify-content: space-between;
+        align-items: center;
+        .socials{
+            li{
+                display: inline-block;
+                margin-left: 24px;
+                a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 24px;
+                    border-radius: 4.1px;
+                    border: 1px solid $black;
+                    width: 41px;
+                    height: 41px;
+                    &:hover{
+                        background-color: $black;
+                        color: $white;
+                    }
+                    & svg path{
+                        @include transition;
+                    }
+                    &:hover svg path{
+                        color: $white;
+                        fill:$white !important
+                    }
+                } 
+            }
+        }
+    }
+}
