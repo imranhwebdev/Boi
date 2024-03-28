@@ -3,6 +3,7 @@ import bannerTopImg from "../assets/img/heroTopImg.png";
 import btnImg from "../assets/img/btnImg.png";
 import workintImg from "../assets/img/workintImg.png";
 import CopyToClipboard from './CopyToClipboard';
+
 export default function Banner() {
   return (
     <section className='banner-area'>
