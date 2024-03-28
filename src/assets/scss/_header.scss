@@ -2,11 +2,21 @@
     &-area{
         padding-top: 34px;
         padding-bottom: 34px;
+        @include sm{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
     }
     &-inner{
         justify-content: space-between;
         align-items: center;
+        .logo{
+            position: relative;
+            z-index: 99;
+        }
         .socials{
+            position: relative;
+            z-index: 99;
             li{
                 display: inline-block;
                 margin-left: 24px;
