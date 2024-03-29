@@ -16,6 +16,8 @@
             top:35%;
             max-width: 283px;
             transform: translateY(-50%);
+            z-index: 9999;
+            cursor: pointer;
             @include mmd{
                 max-width: 200px;
             }
@@ -25,24 +27,6 @@
             @include ssm{
                 max-width: 60px;
                 top: 28%;
-            }
-        }
-        & .commentRight{
-            position: absolute;
-            right: 0;
-            top:57%;
-            max-width: 283px;
-            transform: translateY(-50%);            
-            @include mmd{
-                top:45%;
-                max-width: 200px;
-            }
-            @include sm{
-                max-width: 100px;
-            }
-            @include ssm{
-                max-width: 60px;
-                top: 40%;
             }
         }
         }
@@ -89,7 +73,6 @@
         }
         .btns{
             position: relative;
-            z-index: 99;
             display: inline-block;
             margin-bottom: 40px;
             @include ssm{

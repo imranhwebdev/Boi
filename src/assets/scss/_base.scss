@@ -78,7 +78,7 @@ nav ul li {
     @include passion-one;
     color: $black;
     position: relative;
-    z-index: 1;
+    z-index: 99;
     @include sm{
         padding: 12px 30px;
         border-radius: 5px;
@@ -109,4 +109,26 @@ nav ul li {
     width: 100vw;
     height: auto;
     z-index: 9;
+}
+
+
+.commentRight{
+    position: absolute;
+    right: 0;
+    top:57%;
+    max-width: 283px;
+    transform: translateY(-50%); 
+    z-index: 99;
+    cursor: pointer;           
+    @include mmd{
+        top:45%;
+        max-width: 200px;
+    }
+    @include sm{
+        max-width: 100px;
+    }
+    @include ssm{
+        max-width: 60px;
+        top: 40%;
+    }
 }
