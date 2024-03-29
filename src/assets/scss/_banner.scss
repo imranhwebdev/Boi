@@ -22,11 +22,12 @@
                 max-width: 200px;
             }
             @include sm{
-                max-width: 100px;
+                max-width: 150px;
+                margin: 0;
             }
             @include ssm{
-                max-width: 60px;
-                top: 28%;
+                max-width: 120px;
+                top: 24%;
             }
         }
         }
@@ -83,6 +84,12 @@
                 left: -165px;
                 transform: translateY(-50%);
                 margin-top: 35px;
+                @include sm{
+                    margin: 0;
+                    left: -30px;
+                    top: 50px;
+                    max-width: 100px;
+                }
             }
             .boxed-btn{
                 margin:0px 13.4px;

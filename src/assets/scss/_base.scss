@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Passion+One:wght@400;700;900&display=swap');
 html, html body{
     overflow-x: hidden;
+    user-select: none
 }
 
 body {
@@ -125,10 +126,12 @@ nav ul li {
         max-width: 200px;
     }
     @include sm{
-        max-width: 100px;
+        max-width: 150px;
     }
     @include ssm{
-        max-width: 60px;
-        top: 40%;
+        max-width: 120px;
+        top: 44%;
+        margin: 0;
+        right: 5px;
     }
 }

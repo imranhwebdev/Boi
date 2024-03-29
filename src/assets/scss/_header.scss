@@ -13,10 +13,10 @@
         .logo{
             position: relative;
             z-index: 99;
+            pointer-events: none;
         }
         .socials{
             position: relative;
-            z-index: 99;
             li{
                 display: inline-block;
                 margin-left: 24px;
@@ -29,6 +29,8 @@
                     border: 1px solid $black;
                     width: 41px;
                     height: 41px;
+                    position: relative;
+                    z-index: 99;
                     &:hover{
                         background-color: $black;
                         color: $white;
