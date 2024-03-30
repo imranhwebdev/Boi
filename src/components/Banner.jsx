@@ -110,7 +110,7 @@ export default function Banner() {
                     <img src={workintImg} alt="" />
                 </figure>
                 <a href="#" className='boxed-btn dark-bg'>BUY NOW</a>
-                <a href="#" className='boxed-btn'>MEME GALLERY <img src={btnImg} alt="" /></a>
+                <a target='_blank' href="https://drive.google.com/drive/folders/1fAW9CnAIFDf-vmUVxxrisrlmsecJZyE3" className='boxed-btn'>MEME GALLERY <img src={btnImg} alt="" /></a>
             </div>
             <CopyToClipboard />
         </div>

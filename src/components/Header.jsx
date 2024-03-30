@@ -28,7 +28,7 @@ export default function Header() {
 
   const socials = [
     {
-      url:"https://google.com",
+      url:"https://t.me/wassupBOOIIII",
       icon: socialIcon1,
     },
     {
@@ -36,7 +36,7 @@ export default function Header() {
       icon: socialIcon2,
     },
     {
-      url:"https://google.com",
+      url:"https://twitter.com/BOIonSolana",
       icon: socialIcon3,
     },
   ]
@@ -50,7 +50,7 @@ export default function Header() {
               </a>
               <ul className="socials">
                 {socials.map((item, index)=>(
-                  <li key={index}><a href={item.url}>{item.icon}</a></li>
+                  <li key={index}><a target='_blank' href={item.url}>{item.icon}</a></li>
                 ))}
               </ul>
            </div>
