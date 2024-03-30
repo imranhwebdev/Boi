@@ -152,13 +152,14 @@ nav ul li {
         max-width: 180px;
     }
     @include sm{
-        right: 2px;
+        right: 19px;
         top: 26%;
         max-width: 120px;
     }
     @include ssm{
-        right: 2px;
-        top: 26%;
-        max-width: 90px;;
+        right: 28px;
+        top: 30%;
+        max-width: 90px;
+        margin: 0;
     }
 }
