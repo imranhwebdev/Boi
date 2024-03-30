@@ -40,12 +40,12 @@
             z-index: 1;
             margin-bottom: 22px;
             p{
-               @include font-12;
+               @include font-15;
                letter-spacing: 0.48px;
                color: $black;
                position: absolute;
-               top: -4px;
-               left: 0;
+               top: -20px;
+               left: 50px;
                transform: rotate(-19.764deg);
             }
             img{
@@ -101,5 +101,23 @@
                 }
             }
         }
+    }
+}
+
+.bottomRightImg{
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+    max-width: 380px;
+    margin: 0;
+    padding: 0;
+    @include lg{
+        max-width: 300px;
+    }
+    @include md{
+        max-width: 270px;
+    }
+    @include sm{
+        max-width: 250px;
     }
 }

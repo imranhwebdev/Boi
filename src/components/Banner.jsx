@@ -4,6 +4,7 @@ import btnImg from "../assets/img/btnImg.png";
 import workintImg from "../assets/img/workintImg.png";
 import commentLeft from "../assets/img/comment-left.png";
 import commentRight from "../assets/img/comment-right.png";
+import heroBottomRightImg from "../assets/img/heroBottomRightImg.png";
 import CopyToClipboard from './CopyToClipboard';
 
 export default function Banner() {
@@ -115,6 +116,10 @@ export default function Banner() {
             <CopyToClipboard />
         </div>
       </div>
+      
+      <figure className='bottomRightImg'>
+          <img src={heroBottomRightImg} alt="" />
+        </figure>
     </section>
     
     </>
