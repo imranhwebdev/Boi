@@ -3,6 +3,7 @@ import bannerTopImg from "../assets/img/heroTopImg.png";
 import btnImg from "../assets/img/btnImg.png";
 import workintImg from "../assets/img/workintImg.png";
 import herotopleftImg from "../assets/img/herotopleftImg.png";
+import herotoprightImg from "../assets/img/herotoprightImg.png";
 import commentLeft from "../assets/img/comment-left.png";
 import commentRight from "../assets/img/comment-right.png";
 import heroBottomRightImg from "../assets/img/heroBottomRightImg.png";
@@ -98,6 +99,10 @@ export default function Banner() {
         </figure>
         <figure className='commentLeft'>
           <img src={commentLeft} alt="" />
+        </figure>
+
+        <figure className='herotoprightImg'>
+          <img src={herotoprightImg} alt="" />
         </figure>
         <figure className='commentRight' onClick={resetCanvas}>
           <img src={commentRight} alt="" />

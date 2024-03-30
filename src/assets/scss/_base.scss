@@ -138,3 +138,27 @@ nav ul li {
         right: 5px;
     }
 }
+.herotoprightImg{
+    position: absolute;
+    right: 46px;
+    top:35%;
+    max-width: 283px;
+    transform: translateY(-50%); 
+    z-index: 99;
+    cursor: pointer;           
+    @include mmd{
+        right: 25px;
+        top:20%;
+        max-width: 180px;
+    }
+    @include sm{
+        right: 2px;
+        top: 26%;
+        max-width: 120px;
+    }
+    @include ssm{
+        right: 2px;
+        top: 26%;
+        max-width: 90px;;
+    }
+}
