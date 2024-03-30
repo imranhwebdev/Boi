@@ -11,20 +11,22 @@
             position: relative;
             & .herotopleftImg{
                 position: absolute;
-                left: 0;
-                top:15%;
-                max-width: 283px;
+                left: 30px;
+                top:0%;
+                max-width: 230px;
                 z-index: 9999;
                 @include mmd{
-                    max-width: 200px;
+                    max-width: 150px;
+                    top:10%;
                 }
                 @include sm{
-                    max-width: 150px;
+                    max-width: 120px;
                     margin: 0;
+                    top:12%;
                 }
                 @include ssm{
-                    max-width: 120px;
-                    top: 24%;
+                    max-width: 80px;
+                    top: 10%;
                 }
             }
             
@@ -65,11 +67,20 @@
                top: -20px;
                left: 50px;
                transform: rotate(-19.764deg);
+               @include sm{
+                left: 20px;
+               }
             }
             img{
                 max-width: 236px;
+                @include mmd{
+                    max-width: 160px;
+                }
+                @include sm{
+                    max-width: 140px;
+                }
                 @include ssm{
-                    max-width: 180px;
+                    max-width: 120px;
                 }
             }
         }
@@ -124,9 +135,9 @@
 
 .bottomRightImg{
     position: absolute;
-    right: 20%;
+    right: 10%;
     bottom: 0;
-    max-width: 380px;
+    max-width: 350px;
     margin: 0;
     padding: 0;
     @include lg{

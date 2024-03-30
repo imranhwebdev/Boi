@@ -28,7 +28,7 @@ export default function Header() {
 
   const socials = [
     {
-      url:"https://t.me/wassupBOOIIII",
+      url:"https://t.me/BOIportal",
       icon: socialIcon1,
     },
     {
