@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import bannerTopImg from "../assets/img/heroTopImg.png";
 import btnImg from "../assets/img/btnImg.png";
 import workintImg from "../assets/img/workintImg.png";
+import herotopleftImg from "../assets/img/herotopleftImg.png";
 import commentLeft from "../assets/img/comment-left.png";
 import commentRight from "../assets/img/comment-right.png";
 import heroBottomRightImg from "../assets/img/heroBottomRightImg.png";
@@ -92,6 +93,9 @@ export default function Banner() {
       />
     <section className='banner-area'>
       <div className="container">
+        <figure className='herotopleftImg'>
+          <img src={herotopleftImg} alt="" />
+        </figure>
         <figure className='commentLeft'>
           <img src={commentLeft} alt="" />
         </figure>
@@ -110,7 +114,7 @@ export default function Banner() {
                 <figure className='workintImg'>
                     <img src={workintImg} alt="" />
                 </figure>
-                <a href="#" className='boxed-btn dark-bg'>BUY NOW</a>
+                <a href="#" className='boxed-btn'>BUY NOW</a>
                 <a target='_blank' href="https://drive.google.com/drive/folders/1fAW9CnAIFDf-vmUVxxrisrlmsecJZyE3" className='boxed-btn'>MEME GALLERY <img src={btnImg} alt="" /></a>
             </div>
             <CopyToClipboard />

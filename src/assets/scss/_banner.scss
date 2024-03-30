@@ -9,27 +9,45 @@
         }
         .container{
             position: relative;
+            & .herotopleftImg{
+                position: absolute;
+                left: 0;
+                top:15%;
+                max-width: 283px;
+                z-index: 9999;
+                @include mmd{
+                    max-width: 200px;
+                }
+                @include sm{
+                    max-width: 150px;
+                    margin: 0;
+                }
+                @include ssm{
+                    max-width: 120px;
+                    top: 24%;
+                }
+            }
             
-        & .commentLeft{
-            position: absolute;
-            left: 0;
-            top:35%;
-            max-width: 283px;
-            transform: translateY(-50%);
-            z-index: 9999;
-            cursor: pointer;
-            @include mmd{
-                max-width: 200px;
+            & .commentLeft{
+                position: absolute;
+                left: 0;
+                top:35%;
+                max-width: 283px;
+                transform: translateY(-50%);
+                z-index: 9999;
+                cursor: pointer;
+                @include mmd{
+                    max-width: 200px;
+                }
+                @include sm{
+                    max-width: 150px;
+                    margin: 0;
+                }
+                @include ssm{
+                    max-width: 120px;
+                    top: 24%;
+                }
             }
-            @include sm{
-                max-width: 150px;
-                margin: 0;
-            }
-            @include ssm{
-                max-width: 120px;
-                top: 24%;
-            }
-        }
         }
     }
     &-content{

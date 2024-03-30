@@ -93,10 +93,10 @@ nav ul li {
         bottom: 0;
         max-width: 50px;
     }
-    // &:hover{
-    //     background-color: $black;
-    //     color: $white;
-    // }
+    &:hover{
+        background-color: $black;
+        color: $white;
+    }
 }
 .boxed-btn.dark-bg{
     color: $white;
