@@ -1,10 +1,9 @@
 .header{
     &-area{
-        padding-top: 34px;
-        padding-bottom: 34px;
+        padding-top: 15px;
+        padding-bottom: 0px;
         @include sm{
             padding-top: 15px;
-            padding-bottom: 15px;
         }
     }
     &-inner{
